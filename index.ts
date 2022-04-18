@@ -18,10 +18,7 @@ client.on('ready', () => {
     // The name of the local folder for your command files
     commandsDir: path.join(__dirname, 'commands'),
     // IN DEV Allow importing of .ts files if you are using ts-node
-    // typeScript: true,
-    
-    // testServers:['779736405013430313'],
-    // botOwners:['551642556027371523'],
+    typeScript: true,
   })
 })
 
