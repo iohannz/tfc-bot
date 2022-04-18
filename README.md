@@ -2,7 +2,7 @@
 A bot for The Frontend Community Discord server
 
 # Getting Started
-## Install Dependencies
+### Install Dependencies
 ```bash
 npm install
 ```
