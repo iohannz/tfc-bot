@@ -14,8 +14,9 @@ export default {
     slash: 'both',
 
     // Specify test servers
-    // testOnly: true,
+    testOnly: true,
     guildOnly: true,
+    // ownerOnly: true,
 
     // Callback when user runs command
     callback: ({ message, interaction, args }) => {
