@@ -14,6 +14,8 @@ export default {
 
     slash: 'both',
     guildOnly: true,
+    // ownerOnly: true,
+    testOnly: true,
 
     init: (client: Client) => {
         client.on('interactionCreate', interaction => {
