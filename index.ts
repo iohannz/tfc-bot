@@ -14,6 +14,7 @@ const client = new DiscordJS.Client({
     ],
 })
 
+
 client.on('ready', async () => {
     // Alternative Mongo db connection 
     // await mongoose.connect(process.env.MONGO_URI || '', {
@@ -33,5 +34,6 @@ client.on('ready', async () => {
         // typeScript: true,
     })
 })
+
 
 client.login(process.env.TOKEN)

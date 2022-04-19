@@ -11,6 +11,14 @@ export default {
     guildOnly: true,
     minArgs: 1,
     expectedArgs: '<search-query>',
+    options: [
+        {
+            name: 'search-query',
+            type: 'STRING',
+            description: 'Term to search in MDN docs',
+            required: true
+        }
+    ],
 
     callback: async ({ text }) => {
         const base = 'https://developer.mozilla.org'

@@ -10,7 +10,27 @@ export default {
     minArgs: 3,
     maxArgs: 3,
     expectedArgs: '<channel> <messageId> <role>',
-    expectedArgTypes: ['CHANNEL', 'STRING', 'ROLE'],
+    // expectedArgTypes: ['CHANNEL', 'STRING', 'ROLE'],
+    options: [
+        {
+            name: 'channel',
+            type: 'CHANNEL',
+            description: 'Channel of existing message',
+            required: true
+        },
+        {
+            name: 'messageId',
+            type: 'STRING',
+            description: 'ID of message to add dropdown',
+            required: true
+        },
+        {
+            name: 'role',
+            type: 'ROLE',
+            description: 'Role to add as option',
+            required: true
+        }
+    ],
 
     slash: 'both',
     guildOnly: true,

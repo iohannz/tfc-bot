@@ -9,8 +9,21 @@ export default {
 
     minArgs: 2,
     expectedArgs: '<channel> <text>',
-    expectedArgTypes: ['CHANNEL', 'STRING'],
-
+    // expectedArgTypes: ['CHANNEL', 'STRING'],
+    options: [
+        {
+            name: 'channel',
+            type: 'CHANNEL',
+            description: 'Channel to send message',
+            required: true
+        },
+        {
+            name: 'text',
+            type: 'STRING',
+            description: 'Text of message',
+            required: true
+        }
+    ],
     slash: 'both',
 
     // Specify test servers

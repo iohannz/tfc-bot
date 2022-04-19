@@ -6,6 +6,14 @@ export default {
 
     minArgs: 1,
     expectedArgs: '<status>',
+    options: [
+        {
+            name: 'status',
+            type: 'STRING',
+            description: 'Set the status message',
+            required: true
+        }
+    ],
 
     slash: 'both',
     testOnly: true,
