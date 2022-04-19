@@ -11,7 +11,7 @@ npm install
 The command to start the bot in development. Only use this to make sure it's functioning, do not use this in production. Run it the same place as the `index.ts` file.
 
 ```bash
-npm run test
+npm run dev
 ```
 
 ### Compile TypeScript into JavaScript
