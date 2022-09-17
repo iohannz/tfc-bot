@@ -27,7 +27,8 @@ client.on('ready', async () => {
         testServers: ['955569135893508207'],
         botOwners:[
             '551642556027371523',
-            '765712592165404702'
+            '765712592165404702',
+            '616549620138377218'
         ],
 
         // IN DEV Allow importing of .ts files if you are using ts-node
